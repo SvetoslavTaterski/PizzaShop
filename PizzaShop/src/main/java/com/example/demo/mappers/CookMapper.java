@@ -10,6 +10,6 @@ import org.mapstruct.MappingConstants;
 public interface CookMapper {
     @Mapping(target = "firstName", source = "dto.firstName")
     @Mapping(target = "lastName", source = "dto.lastName")
-    @Mapping(target = "employeeNum", source = "dto.employeeNum")
+    @Mapping(target = "cookNum", source = "dto.cookNum")
     Cook convertDtoToEntity(CookDto dto, Long id);
 }

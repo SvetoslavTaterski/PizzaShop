@@ -1,0 +1,1 @@
+INSERT INTO cook(first_name, last_name, cook_number) VALUES ('John', 'Wick', 123);

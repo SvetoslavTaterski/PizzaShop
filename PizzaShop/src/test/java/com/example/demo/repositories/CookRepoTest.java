@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @Sql({
         "/sql/cook_data.sql"
 })
-public class CookRepoTest {
+class CookRepoTest {
     @Autowired
     private CookRepo cookRepo;
 

@@ -21,4 +21,8 @@ public class Shop {
     @OneToMany(mappedBy = "shop")
     @JsonIgnore
     private Set<Cook> cooks;
+
+    @OneToMany(mappedBy = "shop")
+    @JsonIgnore
+    private Set<Waiter> waiters;
 }
